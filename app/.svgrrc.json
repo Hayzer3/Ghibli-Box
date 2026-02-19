@@ -1,0 +1,8 @@
+{
+  "svgProps": {
+    "width": "{props.width || '100%'}",
+    "height": "{props.height || '100%'}"
+  },
+  "replaceAttrValues": {},
+  "dimensions": false
+}
