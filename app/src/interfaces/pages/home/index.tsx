@@ -19,6 +19,9 @@ export const HomePage = () => {
                     </h2>
                 </div>
             </section>
+            <section className="h-full w-full">
+
+            </section>
         </main>
     );
 }
