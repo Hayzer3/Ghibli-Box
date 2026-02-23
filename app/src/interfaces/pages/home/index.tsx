@@ -1,4 +1,5 @@
 import { MoveDown } from "lucide-react";
+import { FilmsSection } from "../../components/home/films";
 
 
 
@@ -20,7 +21,7 @@ export const HomePage = () => {
                 </div>
             </section>
             <section className="h-full w-full">
-
+                <FilmsSection />
             </section>
         </main>
     );
