@@ -28,6 +28,8 @@ export const Navbar = () => {
         };
     }, []);
 
+    
+
     return (
         <nav className={`
             fixed z-50 top-0 w-full flex justify-between items-center py-10 px-40 transition-colors
@@ -40,22 +42,22 @@ export const Navbar = () => {
             </Link>
             <section>
                 <ul className="flex items-center gap-7 font-[rubik] font-semibold text-lg">
-                    <li>
+                    <li className="hover:border-b-3">
                         <Link href={'/'}>
                             HOME
                         </Link>
                     </li>
-                    <li>
+                    <li className="hover:border-b-3">
                         <Link href={'/'}>
                             FILMS
                         </Link>
                     </li>
-                    <li>
+                    <li className="hover:border-b-3">
                         <Link href={'/'}>
                             ABOUT
                         </Link>
                     </li>
-                    <li>
+                    <li className="hover:border-b-3">
                         <Link href={'/'}>
                             REVIEWS
                         </Link>
