@@ -1,9 +1,11 @@
 import { HomePage } from "../interfaces/pages/home";
+import { getFilms } from "../interfaces/apis/film";
 
-export default function Home() {
+export default async function Home() {
+  const films = await getFilms()
   return (
     <div>
-      <HomePage />
+      <HomePage films={films} />
     </div>
   );
 }

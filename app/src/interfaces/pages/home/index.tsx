@@ -1,9 +1,15 @@
+
 import { MoveDown } from "lucide-react";
-import { FilmsSection } from "../../components/home/films";
+import { Suspense } from "react";
 
+import { Film } from "@/src/interfaces/interface/Films";
+import MostWatched from "../../components/MostWatched";
 
+interface HomePageProps {
+    films: Film[];
+}
 
-export const HomePage = () => {
+export const HomePage = ({films}: HomePageProps) => {
     return (
         <main className="bg-[url(/images/background-home.png)] h-screen bg-no-repeat bg-center">
             <section className="h-full w-full flex items-end py-20 px-40">
@@ -20,8 +26,11 @@ export const HomePage = () => {
                     </h2>
                 </div>
             </section>
-            <section className="h-full w-full">
-                <FilmsSection />
+            <section className="h-full w-full px-40 py-20 grid grid-cols-4 gap-10">
+                <Suspense fallback={<div>Loading...</div>}>
+                    <MostWatched films={films}/>
+                </Suspense>
+                
             </section>
         </main>
     );
