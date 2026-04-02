@@ -1,0 +1,575 @@
+[00:00:01.301] Server  LOG     ✓ Ready in 938ms
+[00:00:08.096] Server  LOG     ○ Compiling / ...
+[00:00:11.173] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:11.182] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:26.276] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:20.590] Server  LOG     ✓ Compiled in 52ms
+[00:10:21.152] Browser ERROR   ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx:4:1
+Export EmblaCarousel doesn't exist in target module
+  2 |
+  3 | import { Film } from "@/types/Films";
+> 4 | import { EmblaCarousel } from "../Carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface MostWatchedProps {
+  7 |   films: Film[];
+
+The export EmblaCarousel was not found in module [project]/Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx
+[00:10:21.152] Browser ERROR   ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx:4:1
+Export EmblaCarousel doesn't exist in target module
+  2 |
+  3 | import { Film } from "@/types/Films";
+> 4 | import { EmblaCarousel } from "../Carousel";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface MostWatchedProps {
+  7 |   films: Film[];
+
+The export EmblaCarousel was not found in module [project]/Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx
+[00:10:21.298] Server  ERROR   ⨯ ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx:5:1
+Module not found: Can't resolve './carousel.css'
+  3 | import React from 'react'
+  4 | import useEmblaCarousel from 'embla-carousel-react'
+> 5 | import "./carousel.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {ChevronLeft, ChevronRight} from 'lucide-react'
+  7 |
+  8 | interface CarouselProps {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:21.301] Server  ERROR   ⨯ ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx:5:1
+Module not found: Can't resolve './carousel.css'
+  3 | import React from 'react'
+  4 | import useEmblaCarousel from 'embla-carousel-react'
+> 5 | import "./carousel.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {ChevronLeft, ChevronRight} from 'lucide-react'
+  7 |
+  8 | interface CarouselProps {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:21.305] Server  ERROR   ⨯ ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx:5:1
+Module not found: Can't resolve './carousel.css'
+  3 | import React from 'react'
+  4 | import useEmblaCarousel from 'embla-carousel-react'
+> 5 | import "./carousel.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {ChevronLeft, ChevronRight} from 'lucide-react'
+  7 |
+  8 | interface CarouselProps {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:21.307] Server  ERROR   ⨯ ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx:5:1
+Module not found: Can't resolve './carousel.css'
+  3 | import React from 'react'
+  4 | import useEmblaCarousel from 'embla-carousel-react'
+> 5 | import "./carousel.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {ChevronLeft, ChevronRight} from 'lucide-react'
+  7 |
+  8 | interface CarouselProps {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:21.312] Server  ERROR   ⨯ ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx:5:1
+Module not found: Can't resolve './carousel.css'
+  3 | import React from 'react'
+  4 | import useEmblaCarousel from 'embla-carousel-react'
+> 5 | import "./carousel.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {ChevronLeft, ChevronRight} from 'lucide-react'
+  7 |
+  8 | interface CarouselProps {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:21.314] Server  ERROR   ⨯ ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx:5:1
+Module not found: Can't resolve './carousel.css'
+  3 | import React from 'react'
+  4 | import useEmblaCarousel from 'embla-carousel-react'
+> 5 | import "./carousel.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {ChevronLeft, ChevronRight} from 'lucide-react'
+  7 |
+  8 | interface CarouselProps {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:21.317] Server  ERROR   ⨯ ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx:5:1
+Module not found: Can't resolve './carousel.css'
+  3 | import React from 'react'
+  4 | import useEmblaCarousel from 'embla-carousel-react'
+> 5 | import "./carousel.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {ChevronLeft, ChevronRight} from 'lucide-react'
+  7 |
+  8 | interface CarouselProps {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:21.319] Server  ERROR   ⨯ ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx:5:1
+Module not found: Can't resolve './carousel.css'
+  3 | import React from 'react'
+  4 | import useEmblaCarousel from 'embla-carousel-react'
+> 5 | import "./carousel.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {ChevronLeft, ChevronRight} from 'lucide-react'
+  7 |
+  8 | interface CarouselProps {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:21.322] Server  ERROR   ⨯ ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx:5:1
+Module not found: Can't resolve './carousel.css'
+  3 | import React from 'react'
+  4 | import useEmblaCarousel from 'embla-carousel-react'
+> 5 | import "./carousel.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {ChevronLeft, ChevronRight} from 'lucide-react'
+  7 |
+  8 | interface CarouselProps {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:21.324] Server  ERROR   ⨯ ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx:5:1
+Module not found: Can't resolve './carousel.css'
+  3 | import React from 'react'
+  4 | import useEmblaCarousel from 'embla-carousel-react'
+> 5 | import "./carousel.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {ChevronLeft, ChevronRight} from 'lucide-react'
+  7 |
+  8 | interface CarouselProps {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:21.327] Server  ERROR   ⨯ ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx:5:1
+Module not found: Can't resolve './carousel.css'
+  3 | import React from 'react'
+  4 | import useEmblaCarousel from 'embla-carousel-react'
+> 5 | import "./carousel.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {ChevronLeft, ChevronRight} from 'lucide-react'
+  7 |
+  8 | interface CarouselProps {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:21.330] Server  ERROR   ⨯ ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx:5:1
+Module not found: Can't resolve './carousel.css'
+  3 | import React from 'react'
+  4 | import useEmblaCarousel from 'embla-carousel-react'
+> 5 | import "./carousel.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {ChevronLeft, ChevronRight} from 'lucide-react'
+  7 |
+  8 | interface CarouselProps {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:21.332] Server  ERROR   ⨯ ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx:5:1
+Module not found: Can't resolve './carousel.css'
+  3 | import React from 'react'
+  4 | import useEmblaCarousel from 'embla-carousel-react'
+> 5 | import "./carousel.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {ChevronLeft, ChevronRight} from 'lucide-react'
+  7 |
+  8 | interface CarouselProps {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:21.335] Server  ERROR   ⨯ ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx:5:1
+Module not found: Can't resolve './carousel.css'
+  3 | import React from 'react'
+  4 | import useEmblaCarousel from 'embla-carousel-react'
+> 5 | import "./carousel.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {ChevronLeft, ChevronRight} from 'lucide-react'
+  7 |
+  8 | interface CarouselProps {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:21.338] Server  ERROR   ⨯ ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx:5:1
+Module not found: Can't resolve './carousel.css'
+  3 | import React from 'react'
+  4 | import useEmblaCarousel from 'embla-carousel-react'
+> 5 | import "./carousel.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {ChevronLeft, ChevronRight} from 'lucide-react'
+  7 |
+  8 | interface CarouselProps {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:21.340] Server  ERROR   ⨯ ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx:5:1
+Module not found: Can't resolve './carousel.css'
+  3 | import React from 'react'
+  4 | import useEmblaCarousel from 'embla-carousel-react'
+> 5 | import "./carousel.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {ChevronLeft, ChevronRight} from 'lucide-react'
+  7 |
+  8 | interface CarouselProps {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:21.341] Server  LOG     ✓ Compiled in 23ms
+[00:10:22.148] Browser ERROR   ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx:5:1
+Module not found: Can't resolve './carousel.css'
+  3 | import React from 'react'
+  4 | import useEmblaCarousel from 'embla-carousel-react'
+> 5 | import "./carousel.css"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {ChevronLeft, ChevronRight} from 'lucide-react'
+  7 |
+  8 | interface CarouselProps {
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component Browser]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ap/Ghibli-Box/src/components/Carousel.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Client Component SSR]
+    ./Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/pages/home/index.tsx [Server Component]
+    ./Desktop/ap/Ghibli-Box/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:23.034] Server  LOG     ✓ Compiled in 28ms
+[00:10:23.352] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:24.670] Server  LOG     ✓ Compiled in 45ms
+[00:10:25.152] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `HomePage`.
+[00:10:25.161] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:10:25.575] Server  ERROR   ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:10:26.000] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:26.767] Server  LOG     ✓ Compiled in 104ms
+[00:10:27.159] Browser ERROR   ./Desktop/ap/Ghibli-Box/src/app/layout.tsx:4:1
+Export Navbar doesn't exist in target module
+  2 | import { Poppins, Rubik } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { Navbar } from "@/components/Navbar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const poppins = Poppins({
+  7 |   variable: "--font-poppins",
+
+The export Navbar was not found in module [project]/Desktop/ap/Ghibli-Box/src/components/Navbar.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:10:28.376] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
