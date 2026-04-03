@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../../../Desktop/ap/Ghibli-Box/src/app/about/page.tsx"],"sourcesContent":["export default function AboutPage() {\r\n  return (\r\n    <div>\r\n      <h1>Sobre o Ghibli Box</h1>\r\n    </div>\r\n  );\r\n}"],"names":[],"mappings":"sVAAe,SAAS,IACtB,MACE,CAAA,EAAA,EAAA,GAAA,EAAC,MAAA,UACC,CAAA,EAAA,EAAA,GAAA,EAAC,KAAA,UAAG,wBAGV"}

@@ -1,0 +1,21 @@
+.embla {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.embla__viewport {
+  overflow: hidden;
+  width: 80vw;
+}
+
+.embla__container {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.embla__slide {
+  flex: 0 0 250px;
+  height: 600px;
+  min-width: 0;
+}

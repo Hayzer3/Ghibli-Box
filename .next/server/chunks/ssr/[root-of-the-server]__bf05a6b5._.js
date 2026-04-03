@@ -1,0 +1,3 @@
+module.exports=[93695,(a,b,c)=>{b.exports=a.x("next/dist/shared/lib/no-fallback-error.external.js",()=>require("next/dist/shared/lib/no-fallback-error.external.js"))},33858,a=>{a.n(a.i(37597))},66518,a=>{a.n(a.i(57685))},79078,a=>{a.n(a.i(52259))},60351,a=>{a.n(a.i(72638))},26906,a=>{a.n(a.i(64912))},63190,a=>{"use strict";var b=a.i(62850);function c(){return(0,b.jsxs)("main",{children:[(0,b.jsx)("h1",{children:"Filmes"}),(0,b.jsx)("p",{children:"Confira a lista de filmes aqui."})]})}a.s(["default",()=>c])}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__bf05a6b5._.js.map
