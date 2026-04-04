@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import axios from "axios";
 
 export default function Cadastro() {
-    
+
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
@@ -22,7 +22,6 @@ export default function Cadastro() {
         senha: senha.trim()
       });
 
-      // 2. Se deu 200 OK, avisa e manda o usuário para fazer login
       alert("Conta criada com sucesso! Faça seu login.");
       router.push("/login");
 
