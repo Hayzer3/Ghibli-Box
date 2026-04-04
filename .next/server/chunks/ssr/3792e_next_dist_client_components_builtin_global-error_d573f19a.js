@@ -1,3 +1,0 @@
-module.exports=[19922,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(49079);a.n(d("[project]/Desktop/ap/Ghibli-Box/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},13984,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(49079);a.n(d("[project]/Desktop/ap/Ghibli-Box/node_modules/next/dist/client/components/builtin/global-error.js"))},64912,a=>{"use strict";a.i(19922);var b=a.i(13984);a.n(b)}];
-
-//# sourceMappingURL=3792e_next_dist_client_components_builtin_global-error_d573f19a.js.map

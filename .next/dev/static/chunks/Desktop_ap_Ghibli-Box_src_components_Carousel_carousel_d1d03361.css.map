@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Magrao/Desktop/ap/Ghibli-Box/src/components/Carousel/carousel.css"],"sourcesContent":[".embla {\r\n  max-width: 80vw;\r\n  margin: 0 auto;\r\n}\r\n\r\n.embla__viewport {\r\n  overflow: hidden;\r\n  width: 80vw;\r\n}\r\n\r\n.embla__container {\r\n  display: flex;\r\n  flex-direction: row;\r\n  gap: 16px;\r\n}\r\n\r\n.embla__slide {\r\n  flex: 0 0 250px;\r\n  height: 600px;\r\n  min-width: 0;\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;AAKA;;;;;AAKA;;;;;;AAMA"}}]
-}
