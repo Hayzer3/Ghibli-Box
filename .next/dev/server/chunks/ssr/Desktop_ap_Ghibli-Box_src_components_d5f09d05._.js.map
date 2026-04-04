@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Magrao/Desktop/ap/Ghibli-Box/src/components/MostWatched/index.tsx"],"sourcesContent":["'use client';\r\n\r\nimport { Film } from \"@/types/Films\";\r\nimport { EmblaCarousel } from \"../Carousel\";\r\n\r\ninterface MostWatchedProps {\r\n  films: Film[];\r\n}\r\n\r\nexport default function MostWatched({films} : MostWatchedProps){\r\n\r\n    return (\r\n    <EmblaCarousel>\r\n        {films?.map((film) => (\r\n            <div\r\n                key={film.id}\r\n                className=\" bg-white/10 backdrop-blur-md p-5 rounded-xl text-white mt-30\">\r\n                    <img className=\"rounded-md  object-cover\" src={film.image} alt={film.title} />\r\n                    <h3 className=\"text-2xl text-center text-black mt-3\">{film.title}</h3>\r\n            </div>\r\n        ))}\r\n    </EmblaCarousel>\r\n    );\r\n}\r\n"],"names":[],"mappings":";;;;;AAGA;AAHA;;;AASe,SAAS,YAAY,EAAC,KAAK,EAAoB;IAE1D,qBACA,gRAAC,iLAAa;kBACT,OAAO,IAAI,CAAC,qBACT,gRAAC;gBAEG,WAAU;;kCACN,gRAAC;wBAAI,WAAU;wBAA2B,KAAK,KAAK,KAAK;wBAAE,KAAK,KAAK,KAAK;;;;;;kCAC1E,gRAAC;wBAAG,WAAU;kCAAwC,KAAK,KAAK;;;;;;;eAH/D,KAAK,EAAE;;;;;;;;;;AAQ5B"}}]
-}
