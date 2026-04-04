@@ -7,6 +7,7 @@
       --tw-rotate-z: initial;
       --tw-skew-x: initial;
       --tw-skew-y: initial;
+      --tw-border-style: solid;
       --tw-font-weight: initial;
       --tw-tracking: initial;
       --tw-shadow: 0 0 #0000;
@@ -32,7 +33,6 @@
       --tw-backdrop-opacity: initial;
       --tw-backdrop-saturate: initial;
       --tw-backdrop-sepia: initial;
-      --tw-border-style: solid;
     }
   }
 }
@@ -323,6 +323,10 @@
     position: fixed;
   }
 
+  .relative {
+    position: relative;
+  }
+
   .start {
     inset-inline-start: var(--spacing);
   }
@@ -428,6 +432,11 @@
 
   .rounded-xl {
     border-radius: var(--radius-xl);
+  }
+
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
   }
 
   .bg-white {
@@ -604,6 +613,12 @@ html {
   inherits: false
 }
 
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
+
 @property --tw-font-weight {
   syntax: "*";
   inherits: false
@@ -736,12 +751,6 @@ html {
 @property --tw-backdrop-sepia {
   syntax: "*";
   inherits: false
-}
-
-@property --tw-border-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
 }
 
 /*# sourceMappingURL=Desktop_ap_Ghibli-Box_src_app_globals_css_bad6b30c._.single.css.map*/
