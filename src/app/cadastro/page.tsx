@@ -2,8 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import axios from "axios";
-
+import { api } from "../../services/api"
 export default function Cadastro() {
 
   const [username, setUsername] = useState("");
@@ -16,7 +15,7 @@ export default function Cadastro() {
 
     try {
         // nomes de acordo com os atributos do backend
-      await axios.post("http://localhost:8080/auth/register", {
+      await api.post("/auth/register", {
         username: username.trim(),
         email: email.trim(),
         senha: senha.trim()
