@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation"; 
-import axios from "axios";
+import { api } from "../../services/api";
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -13,7 +13,7 @@ export default function Login() {
     e.preventDefault();
 
     try {
-      const resposta = await axios.post("http://localhost:8080/auth/login", {
+      const resposta = await api.post("/auth/login", {
         email: email, 
         senha: senha
       });
