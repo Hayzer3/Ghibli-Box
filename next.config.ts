@@ -8,12 +8,12 @@ const nextConfig: NextConfig = {
           {
             loader: "@svgr/webpack",
             options: {
-              dimensions: false, // Remove width/height fixos do SVG
+              dimensions: false,
               svgoConfig: {
                 plugins: [
                   {
                     name: "removeViewBox",
-                    active: false, // Mantém o viewBox
+                    active: false,
                   },
                 ],
               },
@@ -23,6 +23,16 @@ const nextConfig: NextConfig = {
         as: "*.js",
       },
     },
+  },
+
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "image.tmdb.org",
+        pathname: "/t/p/**",
+      },
+    ],
   },
 };
 

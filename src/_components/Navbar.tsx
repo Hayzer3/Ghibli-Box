@@ -2,6 +2,7 @@
 import Link from "next/link";
 import Logo from "@/assets/logo.svg";
 import { useEffect, useState } from "react";
+import { Search } from "lucide-react";
 
 
 
@@ -39,6 +40,16 @@ export const Navbar = () => {
             <section>
                 <ul className="flex items-center gap-7 font-[rubik] font-semibold text-lg">
                     <li className="hover:border-b-3">
+                        <Link href={'/login'}>
+                            SIGN IN
+                        </Link>
+                    </li>
+                    <li className="hover:border-b-3">
+                        <Link href={'/cadastro'}>
+                            SIGN UP
+                        </Link>
+                    </li>
+                    <li className="hover:border-b-3">
                         <Link href={'/'}>
                             HOME
                         </Link>
@@ -55,7 +66,7 @@ export const Navbar = () => {
                     </li>
                     <li className="hover:border-b-3">
                         <Link href={'/'}>
-                            REVIEWS
+                            <Search/>
                         </Link>
                     </li>
                 </ul>

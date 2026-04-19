@@ -6,3 +6,12 @@ export async function getFilms() {
 
   return response.json();
 }
+
+export async function getFilmsById(id:string){
+  const response = await fetch(`http://localhost:8080/filmes/${id}`, { 
+    cache: "no-store"
+  });
+
+  return response.json();
+
+}

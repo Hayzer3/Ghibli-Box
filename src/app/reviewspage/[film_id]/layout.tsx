@@ -5,7 +5,6 @@ export default function FolderLayout({
 }) {
   return (
     <section style={{ padding: '20px' }}>
-      
       {children}
     </section>
   )

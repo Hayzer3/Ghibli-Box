@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins, Rubik } from "next/font/google";
 import "./globals.css";
-import { Navbar } from "@/components/Navbar";
+import { Navbar } from "@/_components/Navbar";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -12,12 +12,13 @@ const poppins = Poppins({
 const rubik = Rubik({
   variable: "--font-rubik",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"], 
+  weight: ["400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata: Metadata = {
   title: "GhibliBox",
-  description: "Este site serve para avaliações dos filmes do Studio Ghibli, avaliações essas compartilhadas entre os usuários.",
+  description:
+    "Este site serve para avaliações dos filmes do Studio Ghibli, avaliações essas compartilhadas entre os usuários.",
 };
 
 export default function RootLayout({
@@ -27,9 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${poppins.variable} ${rubik.variable} antialiased`}
-      >
+      <body className={`${poppins.variable} ${rubik.variable} antialiased`}>
         <Navbar />
         {children}
       </body>
