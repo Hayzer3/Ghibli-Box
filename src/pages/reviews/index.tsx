@@ -1,4 +1,6 @@
+import { FilmAbout } from "./FilmAbout";
 import { FilmHero } from "./FilmHero";
+import PopularReviews from "./PopularReviews";
 
 interface ReviewsProps {
   film_id: string;
@@ -6,7 +8,11 @@ interface ReviewsProps {
 
 const Reviews = ({ film_id }: ReviewsProps) => {
   return (
-    <FilmHero film_id={film_id} />
+    <div>
+      <FilmHero film_id={film_id} />
+      <FilmAbout film_id={film_id}/>
+      <PopularReviews/>
+    </div>
   )
 };
 
